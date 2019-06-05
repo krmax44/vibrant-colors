@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { version } = require('./package.json');
 const program = require('commander');
 const chalk = require('chalk');
