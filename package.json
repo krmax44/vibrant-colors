@@ -3,6 +3,7 @@
   "description": "A CLI for getting vibrant colors from an image using node-vibrant.",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "index.js",
   "author": {
     "name": "krmax44",
     "url": "https://krmax44.de",
