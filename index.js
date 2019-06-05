@@ -35,12 +35,10 @@ program
         const hex = palette[color].getHex();
         console.log(chalk.hex(hex).bold(color), hex);
       }
-    } catch (e) {
+    } catch (error) {
       spinner.stop();
-
-      console.error(e.toString());
-
-      process.exit();
+      console.error(error.toString());
+      process.exit(1);
     }
   });
 
